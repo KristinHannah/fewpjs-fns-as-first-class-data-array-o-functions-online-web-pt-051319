@@ -13,7 +13,7 @@ function walkToPark(dogName, dogBreed){
   return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 
-const function throwFrisbee(dogName, dogBreed){
+const throwFrisbee function (dogName, dogBreed){
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
