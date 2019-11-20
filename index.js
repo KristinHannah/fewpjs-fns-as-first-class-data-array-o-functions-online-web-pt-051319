@@ -32,8 +32,9 @@ let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog
 
 function exerciseDog(dogName, dogBreed){
   let messageArray = []
-  for (let i = 0; i < routine.length; i++){
+  for (let i = 0; i < routine.length){
     messageArray << routine[i](`${dogName}`, `${dogBreed}`);
+    i++
   }
   return messageArray
 }
